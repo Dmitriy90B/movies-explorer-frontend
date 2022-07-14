@@ -1,0 +1,19 @@
+.heading {
+	margin: 0;
+	padding-bottom: 22px;
+	border-bottom: 2px solid #dadada;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 27px;
+	margin-bottom: 70px;
+	letter-spacing: -0.04em;
+}
+
+@media screen and (max-width: 465px) {
+	.heading {
+		padding-bottom: 27px;
+		font-size: 18px;
+		line-height: 22px;
+		margin-bottom: 60px;
+	}
+}

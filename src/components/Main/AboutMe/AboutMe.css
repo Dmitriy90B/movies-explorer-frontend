@@ -1,0 +1,139 @@
+.about-me {
+	max-width: 1140px;
+	padding: 110px 70px 100px;
+	margin: 0 auto;
+}
+
+.about-me__grid {
+	display: grid;
+	grid-template-columns: 1fr auto;
+	gap: 50px;
+	margin-top: -3px;
+}
+
+.about-me__content {
+	max-width: 600px;
+}
+
+.about-me__title {
+	margin: 0;
+	margin-bottom: 18px;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 58px;
+	letter-spacing: -0.04em;
+}
+
+.about-me__subtitle {
+	margin: 0;
+	margin-bottom: 26px;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.about-me__text {
+	margin: 0;
+	margin-bottom: 97px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+.about-me__links {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.about-me__link {
+	margin: 0;
+	margin-right: 20px;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 17px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s linear;
+}
+
+.about-me__link:hover {
+	opacity: 0.7;
+}
+
+.about-me__item {
+	width: 100%;
+	border-radius: 10px;
+	opacity: 0.8;
+	max-width: 270px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 868px) {
+	.about-me {
+		padding: 90px 50px;
+	}
+
+	.about-me__title {
+		margin-bottom: 16px;
+		font-size: 40px;
+		line-height: 40px;
+	}
+
+	.about-me__subtitle {
+		font-size: 12px;
+		line-height: 18px;
+		margin-bottom: 20px;
+	}
+
+	.about-me__text {
+		font-size: 12px;
+		line-height: 18px;
+		margin-bottom: 85px;
+	}
+
+	.about-me__item {
+		max-width: 255px;
+	}
+}
+
+@media screen and (max-width: 708px) {
+	.about-me__grid {
+		grid-template-columns: none;
+		gap: 40px;
+		margin: 0;
+	}
+
+	.about-me__item {
+		max-width: 292px;
+		grid-column: 1;
+		grid-row: 1;
+	}
+}
+
+@media screen and (max-width: 465px) {
+	.about-me {
+		padding: 70px 14px 71px;
+	}
+
+	.about-me__title {
+		margin-bottom: 20px;
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	.about-me__subtitle {
+		font-size: 11px;
+		line-height: 16px;
+	}
+
+	.about-me__text {
+		font-size: 11px;
+		line-height: 16px;
+		margin-bottom: 38px;
+	}
+
+	.about-me__link {
+		margin-right: 26px;
+	}
+}
