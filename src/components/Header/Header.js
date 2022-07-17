@@ -1,13 +1,15 @@
-import React, { useEffect, useState } from 'react';
-import { Switch, Route, Link, NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Switch, Route, Link, NavLink, useLocation } from 'react-router-dom';
 import Navigation from '../Navigation/Navigation';
 
 const Header = () => {
 	const [menuActive, setMenuActive] = useState(false);
+	const location = useLocation();
 
 	return (
-		<header className="header ">
-		{/* <header className="header header_login"> */}
+		<header
+			className={`header 
+						${location.pathname !== '/' && 'header_login'}`}>
 			<div className="header__content">
 				<Link className="header__logo" alt="Логотип" to="/"></Link>
 				<Switch>

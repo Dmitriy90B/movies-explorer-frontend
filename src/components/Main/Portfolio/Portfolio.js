@@ -8,33 +8,45 @@ const Portfolio = () => {
 			<nav>
 				<ul className="portfolio__list">
 					<li className="portfolio__items">
-						<p className="portfolio__item">Статичный сайт</p>
 						<a
-							className="portfolio__link"
+							className="portfolio__item"
 							href="https://dmitriy90b.github.io/how-to-learn/"
 							target="_blank"
 							rel="noreferrer">
-							<img src={arrow} alt="Ссылка на проект" />
+							Статичный сайт
+							<img
+								className="portfolio__img"
+								src={arrow}
+								alt="Ссылка на проект"
+							/>
 						</a>
 					</li>
 					<li className="portfolio__items">
-						<p className="portfolio__item">Адаптивный сайт</p>
 						<a
-							className="portfolio__link"
+							className="portfolio__item"
 							href="https://dmitriy90b.github.io/russian-travel/"
 							target="_blank"
 							rel="noreferrer">
-							<img src={arrow} alt="Ссылка на проект" />
+							Адаптивный сайт
+							<img
+								className="portfolio__img"
+								src={arrow}
+								alt="Ссылка на проект"
+							/>
 						</a>
 					</li>
 					<li className="portfolio__items">
-						<p className="portfolio__item">Одностраничное приложение</p>
 						<a
-							className="portfolio__link"
+							className="portfolio__item"
 							href="https://dmitriy90b.github.io/mesto/"
 							target="_blank"
 							rel="noreferrer">
-							<img src={arrow} alt="Ссылка на проект" />
+							Одностраничное приложение
+							<img
+								className="portfolio__img"
+								src={arrow}
+								alt="Ссылка на проект"
+							/>
 						</a>
 					</li>
 				</ul>

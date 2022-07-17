@@ -100,6 +100,10 @@
 }
 
 @media screen and (max-width: 375px) {
+	.techs {
+		background-color: transparent;
+	}
+
 	.techs__items {
 		grid-template-columns: repeat(2, 1fr);
 	}

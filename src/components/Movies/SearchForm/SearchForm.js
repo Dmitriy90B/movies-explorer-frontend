@@ -13,6 +13,7 @@ const SearchForm = () => {
 					id="name-movie"
 					autoComplete="off"
 					placeholder="Фильм"
+					required
 				/>
 				<button type="submit" className="search-form__save-button">
 					<img src={search} alt="Поиск" />
